@@ -1,4 +1,4 @@
-###Simple Express Server
+### Simple Express Server
 
 The point of this simple express server is to allow front-end developers the ability to quickly serve test data via HTTP to the front-end.
 
@@ -6,15 +6,15 @@ Often writing mock data on the front-end can take up more time than needed. Also
 
 This simple server will allow you to create your HTTP front-end architecture without having to write any "fake" code.
 
-###Installing & Running
+### Installing & Running
 To install and run simply follow these steps:
 
 1)  Clone this repo
 
 2)  Open your terminal and run `node server.js`
 
-3)  Your server is now available at `http://localhost:6060/`
+3)  Your server is now available at `http://localhost:3000/`
 
-4)  You can run a quick test by entering this in your browser: `http://localhost:6060/animals`
+4)  You can run a quick test by entering this in your browser: `http://localhost:300/animals`
 
 5)  Build your test data right in the server.js file. Create new endpoints as needed
