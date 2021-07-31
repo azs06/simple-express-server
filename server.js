@@ -32,17 +32,20 @@ var ingredients = [
     }
 ];
 
+app.get('/', function(req, res){
+    res.send({
+        message: 'Connection to skynet complete!'
+    })
+})
 
 app.get('/ingredients', function(req, res) {
-    console.log("GET From SERVER");
     res.send(ingredients);
 });
 
 app.post('/ingredients', function(req, res) {
     var ingredient = req.body;
-    console.log(req.body);
     ingredients.push(ingredient);
     res.status(200).send("Successfully posted ingredient");
 });
 
-app.listen(300);
+app.listen(3000);
